@@ -9,7 +9,7 @@ def test_no_root():
 
 def test_single_root():
     """Случай, когда уравнение имеет один корень"""
-    res = square_eq_solver(10, 0, 0)
+    res = square_eq_solver(9, 0, 0)
     assert len(res) == 1
     assert res == [0]
 
